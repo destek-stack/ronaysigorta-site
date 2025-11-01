@@ -1,0 +1,87 @@
+{
+  "site": {
+    "title": "Ranay Sigorta",
+    "logo": "uploads/logo/logo.png",
+    "phone": "+90 552 941 10 11",
+    "address": "Cumhuriyet Mah., 1502. Sk. No:1, Batman, Türkiye",
+    "email": "info@ronaysigorta.com"
+  },
+  "hero": {
+    "title": "Geleceğinizi <span class=\"highlight\">Güvence Altına Alın</span>",
+    "subtitle": "1999'dan beri Batman'da güvenilir sigorta hizmetleri. Ailenizi, aracınızı ve geleceğinizi koruyoruz.",
+    "banner": "images/banners/hero-banner.jpg"
+  },
+  "about": {
+    "title": "Batman'ın Köklü Sigorta Acentesi",
+    "description": "Yolculuğumuz 1999 yılında Hyundai bayiliği ile başladı. Müşterilerimize daha iyi hizmet verebilmek için servis ve sigorta hizmetlerini bünyemize kattık.",
+    "image": "images/about/about-banner.jpg"
+  },
+  "stats": {
+    "experience": "25",
+    "customers": "10000",
+    "companies": "15"
+  },
+  "services": [
+    {
+      "id": "trafik",
+      "title": "Trafik Sigortası",
+      "icon": "fa-car",
+      "description": "Zorunlu trafik sigortanızı hızlı ve kolay şekilde yaptırın.",
+      "image": "images/services/trafik.jpg"
+    },
+    {
+      "id": "kasko",
+      "title": "Kasko Sigortası",
+      "icon": "fa-car-crash",
+      "description": "Aracınızı her türlü riske karşı koruyun.",
+      "featured": true,
+      "image": "images/services/kasko.jpg"
+    },
+    {
+      "id": "dask",
+      "title": "DASK",
+      "icon": "fa-home",
+      "description": "Zorunlu deprem sigortası ile evinizi güvence altına alın.",
+      "image": "images/services/dask.jpg"
+    },
+    {
+      "id": "saglik",
+      "title": "Sağlık Sigortası",
+      "icon": "fa-heartbeat",
+      "description": "Tamamlayıcı sağlık sigortası ile ailenizin sağlığını koruyun.",
+      "image": "images/services/saglik.jpg"
+    },
+    {
+      "id": "konut",
+      "title": "Konut Sigortası",
+      "icon": "fa-building",
+      "description": "Evinizi yangın, hırsızlık ve doğal afetlere karşı koruyun.",
+      "image": "images/services/konut.jpg"
+    },
+    {
+      "id": "isyeri",
+      "title": "İşyeri Sigortası",
+      "icon": "fa-briefcase",
+      "description": "İşyerinizi ve işletmenizi tüm risklere karşı koruyun.",
+      "image": "images/services/isyeri.jpg"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "Kasko Sigortasında Özel Fırsatlar",
+      "description": "Bu ay kasko yaptıranlara özel indirimler",
+      "image": "images/banners/banner-1.jpg",
+      "link": "hizmetler.html#kasko",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "DASK Sigortası Yaptırın",
+      "description": "Zorunlu deprem sigortanızı unutmayın",
+      "image": "images/banners/banner-2.jpg",
+      "link": "hizmetler.html#dask",
+      "active": true
+    }
+  ]
+}
