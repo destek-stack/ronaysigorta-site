@@ -764,12 +764,18 @@
 .form-group input,
 .form-group select,
 .form-group textarea {
-    padding: 14px 18px;
+    padding: 16px 20px;
+    min-height: 52px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     border: 2px solid var(--border-color);
     border-radius: 10px;
     transition: all 0.3s ease;
+}
+
+.form-group textarea {
+    min-height: 140px;
+    resize: vertical;
 }
 
 .form-group input:focus,
@@ -1007,22 +1013,54 @@
 
 @media (max-width: 480px) {
     .page-title {
-        font-size: 28px;
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .page-subtitle {
+        font-size: 17px;
     }
 
     .service-detail-title {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .service-detail-content {
-        padding: 24px 20px;
+        padding: 28px 20px;
     }
 
     .stat-number {
-        font-size: 36px;
+        font-size: 38px;
     }
 
     .stat-label {
         font-size: 16px;
+    }
+
+    .contact-form-container {
+        padding: 28px 20px;
+    }
+
+    .phone-link {
+        font-size: 20px;
+        padding: 14px 24px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-detail-card {
+        padding: 32px 24px;
+    }
+
+    .map-info-card {
+        padding: 28px 20px;
+    }
+
+    .faq-item {
+        padding: 24px 20px;
+    }
+
+    .faq-answer p {
+        margin-left: 0;
     }
 }
